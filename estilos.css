@@ -1,0 +1,67 @@
+body {
+  background-color: #14121f;
+  color: #eeeeee;
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  color: #f0c75e;
+  font-family: Georgia, serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #f0c75e;
+  font-family: Georgia, serif;
+}
+
+img, video {
+  margin: 10px;
+  vertical-align: top;
+}
+
+.caixa {
+  background-color: #231f38;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li div {
+  background-color: #3a3558;
+  padding: 8px;
+  margin: 5px;
+}
+
+.destaque {
+  background-color: #740001;
+  color: #f0c75e;
+  padding: 10px;
+  margin: 20px;
+}
+
+th {
+  background-color: #f0c75e;
+  color: #14121f;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+a {
+  color: #f0c75e;
+}
+
+/*
+Avaliação metacognitiva
+
+1. Desafio Técnico: A parte mais difícil foi a classe .destaque, porque me esqueci do ponto antes do nome no CSS e no início a cor não aparecia. Resolvi ao ver que no HTML escrevi class="destaque" e no CSS tinha de ser .destaque com o ponto à frente.
+
+2. Correção de Sintaxe: Sim, tive de voltar ao Notepad++ algumas vezes. O erro mais comum foi esquecer o ponto e vírgula (;) no fim de uma linha do CSS, e também me enganei uma vez no nome do ficheiro estilos.css no link. Depois de corrigir, carreguei em F5 e já funcionou.
+
+3. Autoria: O atributo href serve para indicar o endereço para onde o link nos leva quando clicamos nele.
+*/
